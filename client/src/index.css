@@ -37,7 +37,7 @@
   opacity: 0.9;
   background-size: 100% 100%;
   transition: all 0.5s ease-in-out;
-  background-image: url("./Resources/space.png");
+  background-image: url("./Resources/background4.gif");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;

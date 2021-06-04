@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
 import OneProject from "./OneProject"
-import akashSrc from "../Resources/Akash Image1.jpg"
 import MERN1 from "../Resources/MERN1.jpg"
 import MERN2 from "../Resources/MERN2.jpg"
 import Node from "../Resources/Node.jpg"
