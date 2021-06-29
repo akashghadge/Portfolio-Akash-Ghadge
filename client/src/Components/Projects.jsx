@@ -5,13 +5,14 @@ import MERN1 from "../Resources/MERN1.jpg"
 import MERN2 from "../Resources/MERN2.jpg"
 import Node from "../Resources/Node.jpg"
 import Angular from "../Resources/Angular.jpg"
+import Social from "../Resources/Social.jpg"
 const Projects = () => {
     return (
         <>
             <div className="px-3 py-4">
                 <h1 className="projectHeading">Projects</h1>
                 <h5 className="projectHeading2">“Life without knowledge is death in disguise.”
-            - Talib Kweli</h5>
+                    - Talib Kweli</h5>
                 <div style={{ marginLeft: "20%", marginRight: "20%" }}>
                     <hr style={{ width: "100%" }}></hr>
                 </div>
@@ -22,15 +23,31 @@ const Projects = () => {
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
+                        <img src={Social} className="projectImage"></img>
+                        <div className="container">
+                            <div className="carousel-caption">
+                                <h1 className="heaadingProjectOne">Social Media Application</h1>
+                                <p className="descProjectOne">MERN Stack Social Media Application. Complete web app have 9000+ lines of
+                                    code and deployed on Heroku.
+                                    Tech used are React, Redux, SASS, Node, Express.js, MongoDB, socket.io,
+                                    nodemailer and Heroku.
+                                </p>
+                                <a className="btn btn-lg btn-dark mx-2" href="https://instagram-blogpost-clone.herokuapp.com/" target="blank" role="button" >View Project</a>
+                                <a className="btn btn-lg btn-dark" target="blank" href="https://github.com/akashghadge/blogpost-instagram-clone" role="button">View Source</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
                         <img src={MERN1} className="projectImage"></img>
                         <div className="container">
                             <div className="carousel-caption">
                                 <h1 className="heaadingProjectOne">MERN Stack Protfolio.</h1>
                                 <p className="descProjectOne">This is MERN Stack Protfolio Web App made up with
-                                React,Express,MognoDB,SASS,MaterialUI and Bootstrap and for backend tech we use JWT,Bcrypt,Validator,mongoose lib.</p>
+                                    React,Express,MognoDB,SASS,MaterialUI and Bootstrap and for backend tech we use JWT,Bcrypt,Validator,mongoose lib.</p>
                                 <a className="btn btn-lg btn-dark mx-2" target="blank" href="https://personal-website-mern-akash.herokuapp.com/" role="button">View Project</a>
                                 <a className="btn btn-lg btn-dark" target="blank" href="https://github.com/akashghadge/website-akashghadge" role="button">View Source</a>
                             </div>
