@@ -58,6 +58,10 @@ const Skills = () => {
             name: "Bootstrap",
             n: 4
         },
+        {
+            name: "Redux",
+            n: 3
+        }
     ]
     let libATemp = [
         {
@@ -74,6 +78,10 @@ const Skills = () => {
         },
         {
             name: "Handlebars.js",
+            n: 4
+        },
+        {
+            name: "Socket.io",
             n: 4
         },
         {
@@ -99,8 +107,12 @@ const Skills = () => {
             n: 5
         },
         {
+            name: "Material-UI",
+            n: 4
+        },
+        {
             name: "JSON",
-            n: 5
+            n: 4
         },
         {
             name: "Raspberry Pi",
@@ -112,7 +124,7 @@ const Skills = () => {
             <div className="px-3 py-4" style={{ backgroundColor: "rgb(217, 231, 255)" }}>
                 <h1 className="profileHeading">Abilities</h1>
                 <h5 className="profileHeading2">“Life without knowledge is death in disguise.”
-            - Talib Kweli</h5>
+                    - Talib Kweli</h5>
                 <div style={{ marginLeft: "20%", marginRight: "20%" }}>
                     <hr style={{ width: "100%" }}></hr>
                 </div>
