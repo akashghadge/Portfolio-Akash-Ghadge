@@ -1,26 +1,12 @@
 import React, { useEffect, useState } from "react"
 import { NavLink, useHistory } from "react-router-dom"
-
-// logo
+import "./Navbar.css"
 import logoSrc from "../../Resources/logo192.png"
-
-
-// axios
 import axios from "axios"
 
 const NavBar = () => {
     // sign in and out of the user
     let [user, setUser] = useState(null);
-    // useEffect(() => {
-    //     // fetching current signed in user and if there is no then not updating user
-    //     axios.get("/api/me").then((obj) => {
-    //         if (obj.data[0] != undefined) {
-    //             setUser(obj.data[0].username)
-    //         }
-    //     }).catch((err) => {
-    //         alert(err);
-    //     })
-    // }, [user])
 
     // getting username through jwt
     let history = useHistory();
@@ -44,7 +30,7 @@ const NavBar = () => {
     return (
         <>
             <div className="sticky-top">
-                <nav className="navbar sticky-top px-2 navbar-expand-sm navbar-dark text-white bg-dark" id="navBarCustom" >
+                <nav className="navbar sticky-top px-2 navbar-expand-sm navbar-dark text-white bg-primary" id="navBarCustom" >
                     <img id="logoMenu" src={logoSrc} alt="logo"></img>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
                         aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,15 +39,12 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse font-italic" id="navbarsExample09">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink className="nav-link userName" to="/">Home</NavLink>
+                                <NavLink className="nav-link userName" exact to="/">Home</NavLink>
                                 <span className="sr-only">(current)</span>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link userName" to="/forum">Forum</NavLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <NavLink className="nav-link userName" to="/projects">Projects</NavLink>
-                            </li> */}
                             {user == null ? (
                                 <li className="nav-item">
                                     <NavLink className="nav-link userName" to="/sign">Sign In/Up</NavLink>
@@ -75,23 +58,16 @@ const NavBar = () => {
                             }
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    {/* <Menu className="userName"></Menu> */}
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="dropdown10" style={{ padding: "5px" }}>
                                     <NavLink className="nav-link userNameBox" style={{ color: "black" }} to="/contact">Contact Us</NavLink>
                                     <NavLink className="nav-link userNameBox" to="/About" style={{ color: "black" }}>About</NavLink>
-                                    {/* <a className="nav-link" href="#"><Work></Work></a> */}
                                 </div>
                             </li>
                             <li className="nav-item mx-3 text-primary userName">
                                 <h4 className="nav-link">{user}</h4>
                             </li>
                         </ul>
-
-                        {/* <form className="form-inline my-2 my-md-0">
-
-                            <input className="form-control" type="text" placeholder="Search" aria-label="Search"></input>
-                        </form> */}
                     </div>
                 </nav>
             </div>

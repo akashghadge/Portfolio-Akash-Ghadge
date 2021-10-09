@@ -1,36 +1,6 @@
 * {
   padding: 0px;
   margin: 0px; }
-
-#navBarCustom {
-  text-decoration: none; }
-
-#logoMenu {
-  width: 50px;
-  height: 50px;
-  min-height: min-content;
-  transition: 1s;
-  margin-right: 10px;
-  transition: all 1.5s; }
-  #logoMenu:hover {
-    transform: rotate(360deg); }
-
-.userName {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.3rem;
-  color: #111; }
-  .userName:hover {
-    text-shadow: 1px 1px 0px black;
-    color: #0f0f0f; }
-
-.userNameBox {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.3rem;
-  color: #252525; }
-  .userNameBox:hover {
-    text-shadow: 1px 1px 0px #3b3b3b;
-    color: black; }
-
 #headingBox {
   width: 100vw;
   height: 100vh;
