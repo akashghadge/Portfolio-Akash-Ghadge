@@ -1,0 +1,21 @@
+.font-family-times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 5rem;
+    color: #006eff;
+}
+
+.Heading2 {
+    text-align: center;
+    font-size: 1rem;
+    color: #006eff;
+}
+
+.Heading3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #006eff;
+}

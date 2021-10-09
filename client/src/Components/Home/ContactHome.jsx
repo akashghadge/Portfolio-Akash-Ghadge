@@ -4,12 +4,14 @@ import GitHub from "@material-ui/icons/GitHub"
 import Instagram from "@material-ui/icons/Instagram"
 import Telegram from "@material-ui/icons/Telegram"
 import Footer from "../Footer/Footer"
+
+import "./CommonPS.css"
 const ContactHome = () => {
     return (
         <>
-            <div className="profileMain" style={{ backgroundColor: "#444", margin: "0", height: "70vh" }}>
-                <h1 className="profileHeading" style={{ color: "white" }}>Contact</h1>
-                <h5 className="profileHeading2" style={{ color: "white" }}>“If I had asked people what they wanted, they would have said faster horses. ”
+            <div className="profileMain font-family-times" style={{ backgroundColor: "#444", margin: "0", height: "auto", paddingBottom: "2rem" }}>
+                <h1 className="Heading" style={{ color: "white" }}>Contact</h1>
+                <h5 className="Heading2" style={{ color: "white" }}>“If I had asked people what they wanted, they would have said faster horses. ”
                     - Henry Ford</h5>
                 <div style={{ marginLeft: "20%", marginRight: "20%" }}>
                     <hr style={{ width: "100%" }}></hr>
@@ -43,7 +45,7 @@ const ContactHome = () => {
                     <h3 className="mb-0 contactHead text-white" id="socialHeading" style={{ color: "white", position: "relative", bottom: "1px" }}>Feel Free to connect :)</h3>
                 </div>
                 <Footer></Footer>
-            </div>
+            </div >
         </>
     )
 }

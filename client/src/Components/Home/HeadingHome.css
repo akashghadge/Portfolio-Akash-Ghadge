@@ -1,0 +1,30 @@
+#headingBox {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../../Resources/bg_main_2.svg");
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:450px) {
+    #headingBox {
+        background-image: url("../../Resources/bg_main.svg");
+        height: 50vh;
+    }
+}
+
+#headingText {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#headingText span {
+    font-style: italic;
+    display: block;
+    text-align: end;
+    font-weight: 300;
+}

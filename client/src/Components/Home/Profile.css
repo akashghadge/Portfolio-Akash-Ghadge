@@ -1,0 +1,58 @@
+/* profile section */
+.grandParentProfile {
+    height: auto;
+    width: 100vw;
+}
+
+.parentProfile {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.child1Profile,
+.child2Profile,
+.child3Profile,
+.child4Profile {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    flex: 1 1 300px;
+    margin: 4%;
+    width: 200px;
+}
+
+.profileMain {
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+#akashImage {
+    width: 20rem;
+    height: 16rem;
+    min-width: auto;
+    min-height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px -3px black;
+    border: solid 10px #fafafa;
+    transition: all 0.5s ease-in-out;
+}
+
+#akashImage:hover {
+    box-shadow: 0px 0px 15px -3px #0059ff;
+}
+
+
+
+@media (max-width: 400px) {
+    #akashImage {
+        width: 14rem;
+        height: 12rem;
+    }
+}
