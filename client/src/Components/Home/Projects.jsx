@@ -5,6 +5,7 @@ import MERN2 from "../../Resources/MERN2.jpg"
 import Node from "../../Resources/Node.jpg"
 import Angular from "../../Resources/Angular.jpg"
 import Social from "../../Resources/Social.jpg"
+import HasteBin from "../../Resources/hastebin.jpg"
 const Projects = () => {
     return (
         <>
@@ -23,6 +24,7 @@ const Projects = () => {
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                     <li data-target="#myCarousel" data-slide-to="3"></li>
                     <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -49,6 +51,17 @@ const Projects = () => {
                                     React,Express,MognoDB,SASS,MaterialUI and Bootstrap and for backend tech we use JWT,Bcrypt,Validator,mongoose lib.</p>
                                 <a className="btn btn-lg btn-dark mx-2" target="blank" href="https://personal-website-mern-akash.herokuapp.com/" role="button">View Project</a>
                                 <a className="btn btn-lg btn-dark" target="blank" href="https://github.com/akashghadge/website-akashghadge" role="button">View Source</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img src={HasteBin} className="projectImage"></img>
+                        <div className="container">
+                            <div className="carousel-caption">
+                                <h1 className="heaadingProjectOne">HasteBin Clone Vue Node MongoDB.</h1>
+                                <p className="descProjectOne">HasteBin Clone made up using Vue.js, MongoDB and Node as backend for sharing code snippets.</p>
+                                <a className="btn btn-lg btn-dark mx-2" href="https://hastebin-clone.herokuapp.com/" target="blank" role="button">View Project</a>
+                                <a className="btn btn-lg btn-dark" target="blank" href="https://github.com/akashghadge/hastebin-clone-vue" role="button">View Source</a>
                             </div>
                         </div>
                     </div>

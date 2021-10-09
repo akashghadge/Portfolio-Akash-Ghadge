@@ -52,7 +52,7 @@ const NavBar = () => {
                             )
                                 : (
                                     <li className="nav-item">
-                                        <NavLink className="nav-link userName" to="/" onClick={signOut} >Sign Out</NavLink>
+                                        <NavLink className="nav-link userName" exact to="/sign" onClick={signOut} >Sign Out</NavLink>
                                     </li>
                                 )
                             }
