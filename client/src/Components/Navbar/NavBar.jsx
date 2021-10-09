@@ -56,6 +56,7 @@ const NavBar = () => {
                                     </li>
                                 )
                             }
+                            <a href="https://drive.google.com/file/d/1Ve-qRThTtik0NeX57v4X-nY2M5SGe7w4/view?usp=sharing" className="nav-link nav-item userName" target="_blank" style={{ fontStyle: "normal" }}>Resume</a>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 </a>
