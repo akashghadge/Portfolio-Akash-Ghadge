@@ -1,10 +1,8 @@
-import React, { useState } from "react"
-import ReactDOM from "react-dom"
+import React from "react"
 // images require
-import akashSrc from "../Resources/Akash Image.jpg"
+import akashSrc from "../../Resources/Akash Image.jpg"
 import ComputerOutlined from "@material-ui/icons/ComputerOutlined"
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle"
+
 const Profile = () => {
     return (
         <>

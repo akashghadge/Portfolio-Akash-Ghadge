@@ -1,15 +1,13 @@
 import React, { useState } from "react"
-import ReactDOM from "react-dom"
+import { useHistory, useLocation } from "react-router-dom"
 
 import axios from "axios"
 import AccountBox from "@material-ui/icons/AccountBox"
 import { Button } from "@material-ui/core"
-import { useHistory, useLocation } from "react-router-dom"
 
 
 const SignIn = () => {
     let history = useHistory();
-    let location = useLocation();
     let [allCurrentData, setAllCurrentData] = useState({
         username: "",
         password: ""

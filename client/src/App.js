@@ -1,14 +1,14 @@
 import './App.css';
-import HomePage from "./Components/HomePage"
-import Contact from "./Components/Contact"
-import About from "./Components/About"
-import Forum from "./Components/Forum"
-import Projects from "./Components/Projects"
-
-import NavBar from "./Components/NavBar"
-import Footer from "./Components/Footer"
 import { Route, Switch } from "react-router-dom"
-import Sign from './Components/Sign';
+import HomePage from './Components/Home/HomePage';
+import Contact from "./Components/Contact/Contact"
+import About from "./Components/About/About"
+import Forum from "./Components/Forum/Forum"
+import Projects from "./Components/Home/Projects"
+import Sign from './Components/Auth/Sign';
+import NavBar from "./Components/Navbar/NavBar"
+
+
 
 function App() {
   return (

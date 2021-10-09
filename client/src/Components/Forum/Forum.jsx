@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react"
-import ReactDOM from "react-dom"
 import { useHistory } from "react-router-dom"
-// adding bootstrap in it
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle"
+
 
 // axios for post and get request
 import axios from "axios"

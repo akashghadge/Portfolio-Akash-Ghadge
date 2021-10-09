@@ -1,11 +1,10 @@
 import React, { useState } from "react"
-import ReactDOM from "react-dom"
-import OneProject from "./OneProject"
-import MERN1 from "../Resources/MERN1.jpg"
-import MERN2 from "../Resources/MERN2.jpg"
-import Node from "../Resources/Node.jpg"
-import Angular from "../Resources/Angular.jpg"
-import Social from "../Resources/Social.jpg"
+
+import MERN1 from "../../Resources/MERN1.jpg"
+import MERN2 from "../../Resources/MERN2.jpg"
+import Node from "../../Resources/Node.jpg"
+import Angular from "../../Resources/Angular.jpg"
+import Social from "../../Resources/Social.jpg"
 const Projects = () => {
     return (
         <>

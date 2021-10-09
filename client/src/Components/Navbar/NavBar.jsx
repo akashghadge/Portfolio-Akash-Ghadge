@@ -1,18 +1,9 @@
 import React, { useEffect, useState } from "react"
-import ReactDOM from "react-dom"
 import { NavLink, useHistory } from "react-router-dom"
-// bootstrap adding
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle"
-// logo
-import logoSrc from "../Resources/logo192.png"
-import Menu from "@material-ui/icons/Menu"
-import Home from "@material-ui/icons/Home"
-import Work from "@material-ui/icons/Work"
 
-import MenuOpen from "@material-ui/icons/MenuOpen"
-import Forum from "@material-ui/icons/Forum"
-import Computer from "@material-ui/icons/Computer"
+// logo
+import logoSrc from "../../Resources/logo192.png"
+
 
 // axios
 import axios from "axios"

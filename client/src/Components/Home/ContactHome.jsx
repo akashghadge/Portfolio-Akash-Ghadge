@@ -1,20 +1,16 @@
 import React, { useState } from "react"
-import ReactDOM from "react-dom"
-import ComputerOutlined from "@material-ui/icons/ComputerOutlined"
-import WhatsApp from "@material-ui/icons/WhatsApp"
 import LinkedIn from "@material-ui/icons/LinkedIn"
 import GitHub from "@material-ui/icons/GitHub"
 import Instagram from "@material-ui/icons/Instagram"
 import Telegram from "@material-ui/icons/Telegram"
-import computerSrc from "../Resources/Programmer image.png"
-import Footer from "./Footer"
+import Footer from "../Footer/Footer"
 const ContactHome = () => {
     return (
         <>
             <div className="profileMain" style={{ backgroundColor: "#444", margin: "0", height: "70vh" }}>
                 <h1 className="profileHeading" style={{ color: "white" }}>Contact</h1>
                 <h5 className="profileHeading2" style={{ color: "white" }}>“If I had asked people what they wanted, they would have said faster horses. ”
-                - Henry Ford</h5>
+                    - Henry Ford</h5>
                 <div style={{ marginLeft: "20%", marginRight: "20%" }}>
                     <hr style={{ width: "100%" }}></hr>
                 </div>

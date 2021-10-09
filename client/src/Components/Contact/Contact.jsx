@@ -1,10 +1,5 @@
 import React, { useState } from "react"
 
-
-// adding bootstrap in it
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle"
-
 // material ui icons
 import AccountBox from "@material-ui/icons/AccountBox"
 import { Button } from "@material-ui/core"

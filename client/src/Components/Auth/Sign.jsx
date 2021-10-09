@@ -1,12 +1,4 @@
 import React, { useState } from "react"
-import ReactDOM from "react-dom"
-
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle"
-
-
-// axios for post and get request
-import axios from "axios"
 
 //components
 import SignIn from "./SignIn"
